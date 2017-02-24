@@ -9,9 +9,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ryan O'Meara"]
   spec.email         = ["romeara@live.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A simple gem, to show you how I do things.}
+  spec.description   = %q{A simple gem, to show you how I do things. If it were more complicated, I'd explain more about it here.}
+  spec.homepage      = "https://github.com/romeara/ruby-tutorial"
+  spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
@@ -27,6 +28,7 @@ Gem::Specification.new do |spec|
   end
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.14"

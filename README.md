@@ -2,27 +2,21 @@
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/how_i_start`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+HowIStart is a very simple example gem to show you how I begin a Ruby project.
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'how_i_start'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install how_i_start
 
 ## Usage
 
-TODO: Write usage instructions here
+Just run the executable:
+
+```
+$ how_i_start
+```
+
+And it will point you at the article
 
 ## Development
 
